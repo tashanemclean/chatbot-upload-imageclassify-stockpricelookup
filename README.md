@@ -1,4 +1,4 @@
-# python_chatbot_emma
+# chatbot-upload/imageclassify-stockpricelookup
 
 My very first chatbot. I was super excited to create this project!
 Features current stock market price look up via alphavantage.co API.
