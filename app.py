@@ -17,14 +17,14 @@ CORS(app)
 
 assistant = AssistantV1(
     version='2019-06-13',
-    url='https://gateway.watsonplatform.net/assistant/api',
-    iam_apikey='Fftjw_NhK3I-mJNKE-0zqSJe76X9z0uWbyVshoseWvQc'
+    url=<url>,
+    iam_apikey=<api_key>
 )
 
 discovery = DiscoveryV1(
     version="2019-06-12",
-    url="https://gateway.watsonplatform.net/discovery/api",
-    iam_apikey="Zp2aRM112cxTZq_9_NRNMLLWyPVzrD4beCxPHJS1PPoj"
+    url=<url>,
+    iam_apikey=<api_key>
 )
 
 @app.route('/chatlog')
